@@ -10,3 +10,6 @@ git add .
 
 # Commit the file
 git commit -m "This is my first commit"
+
+# to fetch the changes made on web
+git pull
