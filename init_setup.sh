@@ -9,7 +9,7 @@ conda create --prefix ./env python=3.11.3 -y
 
 echo [$(date)]: "activating the environment" 
 
-source activate ./env
+#source activate ./env
 
 echo [$(date)]: "installing the dev requirements" 
 
