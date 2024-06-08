@@ -4,7 +4,7 @@ from src.DimondPricePrediction.components.data_transformation import DataTransfo
 
 from src.DimondPricePrediction.components.model_trainer import ModelTrainer
 
-#from src.DimondPricePrediction.components.model_evaluation import ModelEvaluation
+from src.DimondPricePrediction.components.model_evaluation import ModelEvaluation
 
 
 import os
@@ -25,6 +25,10 @@ train_arr,test_arr = data_transformation.initialize_data_transformation(train_da
 model_trainer_obj = ModelTrainer()
 model_trainer_obj.initate_model_training(train_arr,test_arr)
 
+
+#added in mlflow vdo
+model_eval_obj = ModelEvaluation()
+model_eval_obj.initiate_model_evaluation(train_arr,test_arr)
 
 
 """"

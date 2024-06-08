@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/FSDSETEPROJECT/mlruns/0/cbabd9018cf4405eae0efb2c7271ab73/artifacts
+end_time: 1717826298467
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cbabd9018cf4405eae0efb2c7271ab73
+run_name: skittish-auk-301
+run_uuid: cbabd9018cf4405eae0efb2c7271ab73
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717826282333
+status: 3
+tags: []
+user_id: Yuvraj
